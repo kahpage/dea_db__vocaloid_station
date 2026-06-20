@@ -102,7 +102,7 @@ if __name__ == "__main__":
                 sources=[
                     Source(
                         "https://www.pixiv.net/event_detail.php?event_id=1238",
-                        (ReliabilityTypes.Reliable, OriginTypes.Official),
+                        (ReliabilityTypes.Reliable, OriginTypes.OfficialExt),
                     )
                 ],
             ),
