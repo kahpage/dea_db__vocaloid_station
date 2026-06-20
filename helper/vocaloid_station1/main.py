@@ -102,11 +102,16 @@ def main():
             pen_name = sanitize_string(cols[2].get_text())
             genre = sanitize_string(cols[3].get_text())
             comment_parts = [f"ジャンル: {genre}"] if genre else []
+            circle_links = []
+            web_tag = cols[1].find("a")
+            if web_tag and web_tag.has_attr("href"):
+                circle_links.append(web_tag["href"].replace("https://web.archive.org/web/20130710182339/", ""))
 
             circle = Circle(
                 aliases=[circle_name],
                 pen_names=[pen_name] if pen_name else None,
                 position=position,
+                links=circle_links if circle_links else None,
                 comments=", ".join(comment_parts) if comment_parts else None,
             )
 
