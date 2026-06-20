@@ -1,6 +1,4 @@
-# dea_db__#
+# dea_db__vocaloid_station
 
-[dea](https://github.com/kahpage/dea) database for the # event group.
+[dea](https://github.com/kahpage/dea) database for the VOCALOID STATION event group.
 
-
-TODO: should have a few events, there is at least 4 of them: https://web.archive.org/web/20130710182339/http://slash.sakuraweb.com/event/circlelist.htm
