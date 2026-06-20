@@ -117,7 +117,10 @@ if __name__ == "__main__":
                     "Date: https://web.archive.org/web/20111006170202/http://slash.sakuraweb.com/event/vo_sta/",
                     (RT.Reliable, OT.Official),
                 ),
-                Source("Participating circles: https://web.archive.org/web/20130710182339/http://slash.sakuraweb.com/event/circlelist.htm", (RT.Reliable, OT.Official)),
+                Source(
+                    "Participating circles: https://web.archive.org/web/20130710182339/http://slash.sakuraweb.com/event/circlelist.htm",
+                    (RT.Reliable, OT.Official),
+                ),
             ],
             locations=locations,
             # description=None,
@@ -176,7 +179,10 @@ if __name__ == "__main__":
         # Medium("",
         #        [Source("", (RT.Reliable, OT.Official))]),
     ]
-    links = []
+    links = [
+        "https://web.archive.org/web/20111006170202/http://slash.sakuraweb.com/event/vo_sta/",
+        "https://x.com/slash_event",
+    ]
 
     event_group = EventGroup(
         aliases=["VOCALOID STATION", "ボーカロイドステーション"],
