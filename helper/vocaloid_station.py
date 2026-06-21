@@ -123,7 +123,7 @@ if __name__ == "__main__":
                 ),
             ],
             locations=locations,
-            # description=None,
+            description="Simultaneous with OVERDRIVE!! SECOND",
             # comments=None,
             last_edited="2026.06.20",
         )
